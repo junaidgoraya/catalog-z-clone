@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog-Z | Photo Detail</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.jpg" alt="Catalog-Z logo">
+        Catalog-Z
+      </a>
+      <div class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-link n-photos">Photos</a></li>
+          <li><a href="videos.html" class="nav-link n-videos">Videos</a></li>
+          <li><a href="about.html" class="nav-link n-about">About</a></li>
+          <li><a href="contact.html" class="nav-link n-contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="tm-hero hero-photos">
+    <form class="tm-search-form">
+      <input type="search" class="tm-search-input" placeholder="Search">
+      <button type="submit" class="tm-search-btn" aria-label="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <!-- MAIN -->
+  <main class="container tm-content">
+
+    <div class="section-heading">
+      <h1>Photo Detail</h1>
+    </div>
+
+    <!-- PHOTO DETAIL SECTION -->
+    <div class="tm-photo-detail">
+      <div class="tm-photo-detail-row">
+        <div class="tm-photo-detail-img">
+          <img id="detail-image" src="" alt="">
+        </div>
+        <div class="tm-photo-detail-info">
+          <h2 id="detail-title" class="tm-photo-title"></h2>
+          
+          <div class="tm-photo-meta">
+            <div class="tm-meta-item">
+              <span class="tm-meta-label">Dimension:</span>
+              <span id="detail-dimension" class="tm-meta-value"></span>
+            </div>
+            <div class="tm-meta-item">
+              <span class="tm-meta-label">Format:</span>
+              <span id="detail-format" class="tm-meta-value"></span>
+            </div>
+            <div class="tm-meta-item">
+              <span class="tm-meta-label">License:</span>
+              <span id="detail-license" class="tm-meta-value"></span>
+            </div>
+          </div>
+
+          <div class="tm-photo-tags">
+            <h3 class="tm-tags-title">Tags:</h3>
+            <div id="detail-tags" class="tm-tags-list"></div>
+          </div>
+
+          <div class="tm-photo-actions">
+            <a id="download-btn" href="" download class="btn-primary tm-download-btn">Download</a>
+            <a href="https://www.paypal.com/donate" target="_blank" class="btn-primary tm-donate-btn">Donate via PayPal</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- RELATED PHOTOS -->
+      <div class="tm-related-photos">
+        <h2 class="tm-related-title">Related Photos</h2>
+        <div class="tm-gallery">
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-03.jpg" alt="Clocks">
+              <figcaption><h2>Clocks</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>18 Oct 2020</span><span>9,906 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-04.jpg" alt="Plants">
+              <figcaption><h2>Plants</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>14 Oct 2020</span><span>16,100 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-05.jpg" alt="Morning">
+              <figcaption><h2>Morning</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>12 Oct 2020</span><span>12,460 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-06.jpg" alt="Pinky">
+              <figcaption><h2>Pinky</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>10 Oct 2020</span><span>11,402 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-01.jpg" alt="Hangers">
+              <figcaption><h2>Hangers</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>24 Sep 2020</span><span>16,008 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-02.jpg" alt="Perfumes">
+              <figcaption><h2>Perfumes</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>20 Sep 2020</span><span>12,860 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-07.jpg" alt="Bus">
+              <figcaption><h2>Bus</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>16 Sep 2020</span><span>10,900 views</span></div>
+          </div>
+
+          <div class="tm-gallery-item">
+            <figure class="effect-ming">
+              <img src="images/img-08.jpg" alt="New York">
+              <figcaption><h2>New York</h2><span class="view-more">View more</span></figcaption>
+            </figure>
+            <div class="tm-gallery-meta"><span>12 Sep 2020</span><span>11,300 views</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="tm-footer">
+    <div class="container-small">
+      <div class="tm-footer-row">
+        <div class="tm-footer-col">
+          <h3 class="tm-footer-title">About Catalog-Z</h3>
+          <p>Catalog-Z is free <a href="#" class="text-primary">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+        </div>
+        <div class="tm-footer-col">
+          <h3 class="tm-footer-title">Our Links</h3>
+          <ul class="tm-footer-links">
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="tm-footer-col tm-footer-social-col">
+          <ul class="tm-social-links">
+            <li><a href="https://facebook.com"><img src="images/fblogo.PNG" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com"><img src="images/twitterlogo.PNG" alt="Twitter"></a></li>
+            <li><a href="https://instagram.com"><img src="images/instalogo.PNG" alt="Instagram"></a></li>
+            <li><a href="https://pinterest.com"><img src="images/pinterestlogo.PNG" alt="Pinterest"></a></li>
+          </ul>
+          <div class="tm-footer-legal">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="tm-footer-bottom">
+        <span>Copyright 2020 Catalog-Z Company. All rights reserved.</span>
+        <span>Designed by <a href="#">TemplateMo</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Get photo data from URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const imageSrc = urlParams.get('img') || 'images/img-01.jpg';
+    const title = urlParams.get('title') || 'Hangers';
+    const dimension = urlParams.get('dimension') || '1920 x 1080';
+    const format = urlParams.get('format') || 'JPEG';
+    const license = urlParams.get('license') || 'Free for commercial use';
+    const tags = urlParams.get('tags') ? urlParams.get('tags').split(',') : ['photography', 'nature', 'landscape'];
+
+    // Set photo details
+    document.getElementById('detail-image').src = imageSrc;
+    document.getElementById('detail-image').alt = title;
+    document.getElementById('detail-title').textContent = title;
+    document.getElementById('detail-dimension').textContent = dimension;
+    document.getElementById('detail-format').textContent = format;
+    document.getElementById('detail-license').textContent = license;
+    document.getElementById('download-btn').href = imageSrc;
+
+    // Set tags
+    const tagsContainer = document.getElementById('detail-tags');
+    tags.forEach(tag => {
+      const tagElement = document.createElement('span');
+      tagElement.className = 'tm-tag';
+      tagElement.textContent = tag.trim();
+      tagsContainer.appendChild(tagElement);
+    });
+
+    // Add click functionality to related photos
+    document.querySelectorAll('.tm-gallery-item').forEach(item => {
+      item.addEventListener('click', function() {
+        const img = this.querySelector('img');
+        const title = this.querySelector('h2').textContent;
+        const newUrl = `photo-detail.html?img=${img.src}&title=${encodeURIComponent(title)}&dimension=1920 x 1080&format=JPEG&license=Free for commercial use&tags=photography,nature,landscape`;
+        window.location.href = newUrl;
+      });
+    });
+  </script>
+
+</body>
+</html>

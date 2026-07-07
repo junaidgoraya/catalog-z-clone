@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catalog-Z | Latest Videos</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.jpg" alt="Catalog-Z logo">
+        Catalog-Z
+      </a>
+      <div class="main-nav">
+        <ul>
+          <li><a href="index.html" class="nav-link n-photos">Photos</a></li>
+          <li><a href="videos.html" class="nav-link n-videos active">Videos</a></li>
+          <li><a href="about.html" class="nav-link n-about">About</a></li>
+          <li><a href="contact.html" class="nav-link n-contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO (video background) -->
+  <div class="tm-hero hero-videos">
+    <video id="tm-hero-video" autoplay muted loop playsinline>
+      <source src="video/hero.mp4" type="video/mp4">
+    </video>
+    <button class="tm-video-control-button" id="tm-video-toggle" aria-label="Play or pause video">
+      &#10073;&#10073;
+    </button>
+  </div>
+
+  <!-- MAIN -->
+  <main class="container tm-content">
+
+    <div class="section-heading">
+      <h1>Latest Videos</h1>
+      <form class="tm-paging-form">
+        <span>Page</span>
+        <input type="text" value="1" size="1" class="tm-input-paging">
+        <span>of 180</span>
+      </form>
+    </div>
+
+    <!-- GALLERY GRID -->
+    <div class="tm-gallery">
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-14.jpg" alt="Sea Waves">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Sea Waves</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>18 Oct 2020</span><span>21,340 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-08.jpg" alt="City Streets">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>City Streets</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>14 Oct 2020</span><span>18,900 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-04.jpg" alt="Green Garden">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Green Garden</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>12 Oct 2020</span><span>14,220 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-16.jpg" alt="Calm Mind">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Calm Mind</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>10 Oct 2020</span><span>25,760 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-01.jpg" alt="Fashion Store">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Fashion Store</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>24 Sep 2020</span><span>12,004 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-03.jpg" alt="World Clocks">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>World Clocks</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>20 Sep 2020</span><span>9,850 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-09.jpg" alt="Abstract Motion">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Abstract Motion</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>16 Sep 2020</span><span>31,500 views</span></div>
+      </div>
+
+      <div class="tm-gallery-item">
+        <figure class="effect-ming">
+          <img src="images/img-11.jpg" alt="Rose Bloom">
+          <div class="tm-play-icon">&#9658;</div>
+          <figcaption><h2>Rose Bloom</h2><span class="view-more">View more</span></figcaption>
+        </figure>
+        <div class="tm-gallery-meta"><span>12 Sep 2020</span><span>17,300 views</span></div>
+      </div>
+
+    </div><!-- /.tm-gallery -->
+
+    <!-- PAGINATION -->
+    <div class="tm-paging-row">
+      <a href="javascript:void(0);" class="btn-primary disabled">Previous</a>
+      <div class="tm-paging">
+        <a href="javascript:void(0);" class="tm-paging-link active">1</a>
+        <a href="javascript:void(0);" class="tm-paging-link">2</a>
+        <a href="javascript:void(0);" class="tm-paging-link">3</a>
+        <a href="javascript:void(0);" class="tm-paging-link">4</a>
+      </div>
+      <a href="javascript:void(0);" class="btn-primary">Next Page</a>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="tm-footer">
+    <div class="container-small">
+      <div class="tm-footer-row">
+        <div class="tm-footer-col">
+          <h3 class="tm-footer-title">About Catalog-Z</h3>
+          <p>Catalog-Z is free <a href="#" class="text-primary">Bootstrap 5</a> Alpha 2 HTML Template for video and photo websites. You can freely use this TemplateMo layout for a front-end integration with any kind of CMS website.</p>
+        </div>
+        <div class="tm-footer-col">
+          <h3 class="tm-footer-title">Our Links</h3>
+          <ul class="tm-footer-links">
+            <li><a href="#">Advertise</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="tm-footer-col tm-footer-social-col">
+          <ul class="tm-social-links">
+            <li><a href="https://facebook.com"><img src="images/fblogo.PNG" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com"><img src="images/twitterlogo.PNG" alt="Twitter"></a></li>
+            <li><a href="https://instagram.com"><img src="images/instalogo.PNG" alt="Instagram"></a></li>
+            <li><a href="https://pinterest.com"><img src="images/pinterestlogo.PNG" alt="Pinterest"></a></li>
+          </ul>
+          <div class="tm-footer-legal">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+      <div class="tm-footer-bottom">
+        <span>Copyright 2020 Catalog-Z Company. All rights reserved.</span>
+        <span>Designed by <a href="#">TemplateMo</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const vid = document.getElementById('tm-hero-video');
+    const toggleBtn = document.getElementById('tm-video-toggle');
+    toggleBtn.addEventListener('click', () => {
+      if (vid.paused) { vid.play(); toggleBtn.innerHTML = '&#10073;&#10073;'; }
+      else { vid.pause(); toggleBtn.innerHTML = '&#9658;'; }
+    });
+  </script>
+
+</body>
+</html>
